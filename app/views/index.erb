@@ -1,5 +1,10 @@
 <h1>Tweets</h1>
 
+Good tweets:
+<ul>
 <% @tweets.each do |tweet| %>
-  <%= tweet.name %>
+  <li>
+    <%= tweet.text %>
+  </li>
 <% end %>
+</ul>
